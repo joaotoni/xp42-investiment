@@ -1,3 +1,57 @@
 main {
     padding-top: 250px;
 }
+
+main div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+main div h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081; 
+    display: block;
+    width: 420px;
+    padding: 0 300px 0 488px;
+}
+
+main div p{
+    display: block;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+    padding: 0 0 0 488px;
+    width: 360px;
+}
+
+main div ul{
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 20px 60px 20px 25px;
+}
+
+main div ul a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    text-decoration: none;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
