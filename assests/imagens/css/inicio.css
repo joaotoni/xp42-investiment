@@ -1,74 +1,198 @@
-main {
-    padding-top: 250px;
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.first{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    text-decoration: none; 
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 20px;
 }
 
-main div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-main div h1{
+section h1{
+    margin-top: 242px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
     color: #FF4081; 
-    display: block;
-    width: 420px;
-    padding: 0 300px 0 488px;
+    width: 448px;
+    height: 216px;
 }
 
-main div p{
-    display: block;
+section p{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
     line-height: 31px;
     color: #555555;
-    padding: 0 0 0 488px;
     width: 360px;
+
+}
+.inicio div{
+    list-style: none;
 }
 
-div h4{
-  /*display: block;
-    flex-wrap: wrap;*/
-    padding: 0px 0px 0px 468px; 
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+
+.banner{
+    margin-top: 252px;
+}
+
+.meio{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 175px;
+    background: #F7F7F7;
+    padding: 30px;
+}
+
+.sub-titulos{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 69px;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center; 
     color: #FF4081;
-    width: 592px;
-    margin-bottom: 30px;
-    
 }
 
-div h4 a{
+.texto{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.links{
+    background: #FF4081;
+    border-radius: 62px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
-    font-size: 27px;
-    line-height: 31px;
-    color: #FF4081;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block; /* para desbugar o background do botao*/
+    padding: 25px;
+    align-items: center;
     text-decoration: none;
-    display: block; 
+}
+.divsmeio{
+    text-align: center;
+    list-style: none;
+}
+
+.meiobaixo{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.submeio{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+    margin: 0 0 0 130px;
+    height: 78px;
+}
+
+.imagem{
+    margin: 0 28px 86px 128px ;
+    width: 104px;
+    height: 104px;
+}
+
+.artbaixo{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.meiobaixo div{
+    width: 363px;
+    
+}
+
+.meiobaixo p{
+    margin:0 0 10.31px ;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    gap: 97px;
+}
+
+.ultimo{
+    display: flex;
+    margin: 0 0 0 128px;
+}
+
+.ultimosub{
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    margin: 0 0 40px 120px;
+    padding: 40px;
+}
+
+.ultimo h6{
+    font-weight: 700;
+    font-size: 27px;
+    color: #009688;
+    margin: 11px 0 0 0;
+}
+
+.ultimo p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.baixo a{
+    font-size: 25px;  
+    color: #FF4081;
     border: 2px solid #FF4081;
     box-sizing: border-box;
     border-radius: 62px;
-    text-transform: lowercase;
-    text-align: center;
-    padding: 10px;
-    width: 268px;   
-}
+    padding:  11px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
 
-div  img{
-    display: block;
-    flex-wrap: wrap;
-    border: 2px solid #555555;
-    margin-left:  30%;
+}
+.amem{
+    font-size: 25px;  
+    color: #FF4081;
+    padding:   10px 41px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.baixo{
+    background: #E5E5E5
 }
