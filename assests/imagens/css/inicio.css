@@ -33,17 +33,22 @@ main div p{
     width: 360px;
 }
 
-main div ul{
-    border: 2px solid #FF4081;
-    box-sizing: border-box;
-    border-radius: 62px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    padding: 20px 60px 20px 25px;
+div h4{
+  /*display: block;
+    flex-wrap: wrap;*/
+    padding: 0px 0px 0px 468px; 
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    width: 592px;
+    margin-bottom: 30px;
+    
 }
 
-main div ul a{
+div h4 a{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -51,7 +56,19 @@ main div ul a{
     line-height: 31px;
     color: #FF4081;
     text-decoration: none;
+    display: block; 
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 10px;
+    width: 268px;   
+}
+
+div  img{
+    display: block;
     flex-wrap: wrap;
-    display: flex;
-    align-items: center;
+    border: 2px solid #555555;
+    margin-left:  30%;
 }
