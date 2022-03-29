@@ -14,8 +14,8 @@ main h1{
 }
 
 .unico{
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .unico div{
     display: flex;
@@ -23,7 +23,7 @@ main h1{
 }
 
 .textos{
-    
+    display: inline-flex;
 }
 
 div p{
