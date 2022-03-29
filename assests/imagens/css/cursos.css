@@ -1,0 +1,24 @@
+main h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FF4081;  
+    padding: 0 0 0 50px;
+    margin: 11px 0 0 0;
+}
+
+.first{
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    margin: 0 0 0 55px;
+}
+
+.unico{
+    align-items: center;
+    justify-content: center;
+}
+
+.primeiro {
+    display: flex;
+    flex-wrap: wrap;
+}
