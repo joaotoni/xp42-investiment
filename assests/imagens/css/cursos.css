@@ -6,6 +6,10 @@ main h1{
     margin: 11px 0 0 0;
 }
 
+.titulo{
+    margin-bottom: 95px;
+}
+
 .first{
     font-weight: 400;
     font-size: 20px;
@@ -16,18 +20,43 @@ main h1{
 .unico{
     display: flex;
     flex-wrap: wrap;
-}
-.unico div{
-    display: flex;
-    
+    justify-content: space-evenly;
+    margin-bottom: 68px;
 }
 
 .textos{
-    display: inline-flex;
+    max-width: 724px;
+
 }
 
-div p{
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
+section div a{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #419488;
+    border-radius: 62px;
+    text-decoration: none;
+    padding: 15px 50px;
+}
+
+section div h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF4081;
+}
+
+ section div p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.linhas{
+    margin-left: 80px;
+    padding-bottom: 100px;
+}
+
+.textos p{
+    margin-bottom: 53px;
 }
