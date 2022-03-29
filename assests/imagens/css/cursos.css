@@ -17,8 +17,18 @@ main h1{
     align-items: center;
     justify-content: center;
 }
+.unico div{
+    display: flex;
+    
+}
 
-.primeiro {
+.textos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div p{
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
 }
