@@ -1,5 +1,8 @@
 .principal{
-    text-align: center;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    
 }
 
 .data{
@@ -14,16 +17,40 @@
     font-size: 50px;
     color: #FF4081;
 }
+
+.principal div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
 .texto{
+    display: flex;
+    justify-content: center;
     font-weight: 300;
     font-size: 18px;
     text-align: left;
     margin-left: 204px;
     margin-right: 204px;
+    width: 1032px;
 }
+
+.ultimo-texto{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 204px;
+    margin-right: 204px;
+    width: 1032px;
+    margin-bottom: 111px;
+}
+
 .principal img{
     margin-bottom: 64px;
 }
+
 .principal h2{
     font-weight: 500;
     font-size: 26px;
@@ -32,11 +59,18 @@
 
 .meio{
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 175px;
     background: #F7F7F7;
-    padding: 109px;
+}
+
+.ultimo{
+    width: 100%;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+    display: flex;
+    justify-content: center;
 }
 
 .sub-titulos{
@@ -57,6 +91,7 @@
     line-height: 20px;
     text-align: center;
     color: #000000;
+    width: 85%;
 }
 
 .links{
@@ -70,11 +105,23 @@
     text-align: center;
     color: #FFFFFF;
     display: inline-block; /* para desbugar o background do botao*/
-    padding: 25px;
+    padding: 15px 50px;
     align-items: center;
     text-decoration: none;
+    margin-bottom: 99px;
 }
 .divsmeio{
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
+    width: 344px;
+    
+}
+
+.unica{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 134px;
 }
