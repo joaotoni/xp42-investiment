@@ -1,0 +1,75 @@
+.principal{
+    text-align: center;
+}
+
+.data{
+    justify-content: center;
+    color: #9D9D9D;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.principal h1{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+}
+.texto{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.principal h2{
+    font-weight: 500;
+    font-size: 26px;
+    color: #009688;
+}
+
+.meio{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 175px;
+    background: #F7F7F7;
+    padding: 109px;
+}
+
+.sub-titulos{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center; 
+    color: #FF4081;
+}
+
+.texto{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.links{
+    background: #FF4081;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block; /* para desbugar o background do botao*/
+    padding: 25px;
+    align-items: center;
+    text-decoration: none;
+}
+.divsmeio{
+    text-align: center;
+    list-style: none;
+}
