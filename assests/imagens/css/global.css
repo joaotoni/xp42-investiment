@@ -1,7 +1,10 @@
 body {
     font-family: 'Ubuntu', Arial, sans-serif;
 }
-
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 header {
     background: #2E948A;
     display: flex;
@@ -49,7 +52,7 @@ footer {
 footer h2 a {
     display: block;
     color: transparent;
-    background: url('../logo.png') 0 0 no-repeat;
+    background: url('../logo-baixo.png') 0 0 no-repeat;
     width: 312px;
     height: 102px;
 }

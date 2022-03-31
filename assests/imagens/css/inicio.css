@@ -45,9 +45,11 @@ section p{
 
 .inicio{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 39px;
+    width: 100%;
 }
 
 
@@ -55,31 +57,31 @@ section p{
     margin-top: 210px;
 }
 
+.terceira{
+    max-width: 100%;
+}
+
 .meio{
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
     margin-top: 175px;
     background: #F7F7F7;
     padding: 30px;
+    max-width: 100%;
 }
 
 .sub-titulos{
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    line-height: 29px;
     text-align: center; 
     color: #FF4081;
 }
 
 .texto{
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 300;
     font-size: 17px;
-    line-height: 20px;
     text-align: center;
     color: #000000;
 }
@@ -87,11 +89,8 @@ section p{
 .links{
     background: #FF4081;
     border-radius: 62px;
-    font-family: 'Ubuntu';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
     color: #FFFFFF;
     display: inline-block; /* para desbugar o background do botao*/
     padding: 15px 50px;
@@ -146,7 +145,8 @@ section p{
 
 .ultimo{
     display: flex;
-    margin: 0 0 0 128px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .ultimosub{
@@ -167,8 +167,8 @@ section p{
 .ultimo p{
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
+
 }
 
 .baixo a{
@@ -181,7 +181,7 @@ section p{
     display: flex;
     justify-content: space-around;
     text-decoration: none;
-
+    max-width: 100%;
 }
 .amem{
     font-size: 25px;  
@@ -194,3 +194,53 @@ section p{
 .baixo{
     background: #E5E5E5
 }
+
+@media only screen and ( width:769px ) {
+        section h1{
+            justify-content: center;
+            width: 224px;
+        }
+             .ultimo div{
+            width: 60%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 auto;
+        }   
+}
+
+@media only screen and ( width:481px ) {
+        .banner {
+            display: flex;
+            justify-content: center;
+        }
+
+        .banner img{
+            width: 90%;
+        }
+
+        .imagem{
+            margin: 0;
+            width: 104px;
+            height: 104px;
+            margin: 20px 0 10px 100px;
+        }
+
+        .artbaixo {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+
+        .ultimo div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center ;
+        }
+        .ultimo div p{
+            text-align: center;
+            
+        }
+}
+        

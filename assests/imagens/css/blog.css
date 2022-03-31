@@ -33,8 +33,6 @@
 }
 .articles{
     display: block;
-    justify-content: center;
-    flex-wrap: wrap;
     width: 518px;
     margin-bottom: 100px;
 }
