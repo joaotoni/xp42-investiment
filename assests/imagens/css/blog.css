@@ -2,7 +2,7 @@
     font-weight: 700;
     font-size: 47px;
     color: #009688;
-    padding: 122px 280px 0px 239px;
+    padding: 122px 200px 0px 239px;
     
 }
 .titulo p{
@@ -19,8 +19,10 @@
 
 .titulo{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .meio{
@@ -30,6 +32,7 @@
     padding: 198px 0 0 173px;
     justify-content: center;
     background: #E5E5E5;
+    width: 100%;
 }
 .articles{
     display: block;
@@ -58,3 +61,13 @@
 
 }
 
+@media only screen and (max-width: 481px) {
+ 
+   .articles img{
+       width: 326px;
+   }
+   .meio{
+       padding: 0;
+       justify-content: center;
+   }
+}

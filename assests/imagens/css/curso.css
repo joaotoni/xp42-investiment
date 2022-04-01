@@ -1,5 +1,6 @@
 .inicio{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 81px;
@@ -55,4 +56,12 @@
 .linhas{
     width: 1244px;
     
+}
+
+@media only screen and (max-width: 481px) {
+ 
+    .fim p{
+        width: 400px;
+    }
+
 }
